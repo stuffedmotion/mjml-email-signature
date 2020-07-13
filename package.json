@@ -7,6 +7,7 @@
     "build": "lerna run build --parallel",
     "lint": "eslint .",
     "postinstall": "lerna bootstrap",
+    "prepare": "lerna run build --parallel",
     "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\""
   },
   "workspaces": [
